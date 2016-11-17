@@ -1,0 +1,99 @@
+html, body {
+	margin: 0;
+	padding: 0
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+.outer {
+	
+	border: 1px solid black;
+	/*padding: 10px;*/
+}
+
+.first, .second, .third{
+	border: 1px solid black;
+	background-color: #5b585e;
+	color: white;
+	margin: 10px;
+
+}
+
+section {
+	
+	float: right;
+	padding: 10px 30px;
+	border: 1px solid black;
+	color: black;
+	
+}
+
+div p {
+	margin-top: 40px ;
+	padding: 10px;
+}
+
+#a {
+	background-color: #f45642;
+}
+
+#b {
+	background-color: #42f4c2;
+}
+
+#c {
+	background-color: #aa42f4;
+}
+
+
+@media (max-wdith: 767px) {
+	.first {
+		width: 100%;		
+	}
+
+	.second {
+		width: 100%;		
+	}
+
+	.third {
+		width: 100%;	
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.first {
+		width: 45%;
+		float: left;
+	}
+
+	.second {
+		width: 45%;
+		float: left;
+
+	}
+
+	.third {
+		width: 100%;
+		clear: both;
+	}
+}
+
+@media (min-width: 992px) {
+	.first {
+		width: 25%;
+		float: left;
+	}
+
+	.second {
+		{
+		width: 25%;
+		float: left;
+	}
+
