@@ -22,12 +22,12 @@ header h1 {
 }
 
 
-#menu {
+#menu-list {
 	background-color: #736daa;	
 	text-align: center;
 }
 
-#menu a{
+#menu-list a{
 	color: #0b1221;
 	font-size: 1.5em;
 }
