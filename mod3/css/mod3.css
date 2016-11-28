@@ -35,24 +35,26 @@ header h1 {
 #cont {
 	background-color: #259a9e;
 	margin-top: 40px;
-
 }
 
 #cont p {
-
 	margin: 10px;
 	padding: 15px;
 }
 
+
+
 @media (min-width: 600px) {
-	#cont {
+
+	.col-lg-12 {
 		width: 100%;
 	}
 }
 
 @media (max-width: 599px) {
 
-	#cont {
-		margin: 40px;
+	.col-sm-12 {
+		with: 100%;
+		margin: 30px;
 	}
 }
