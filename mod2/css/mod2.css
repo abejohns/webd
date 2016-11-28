@@ -10,6 +10,7 @@ html, body {
 
 h1 {
 	text-align: center;
+    font-size: 3.5em
 }
 
 
@@ -17,21 +18,19 @@ h1 {
 	border: 1px solid black;
 	background-color: #5b585e;
 	color: white;
-	
-
+    margin: 10px;
 }
 
 section {
-	
 	float: right;
 	padding: 10px 30px;
 	border: 1px solid black;
 	color: black;
-	
+	font-size: 1.25em;
 }
 
-div p {
-	margin-top: 40px ;
+p {
+	margin-top: 50px ;
 	padding: 10px;
 }
 
@@ -47,55 +46,26 @@ div p {
 	background-color: #aa42f4;
 }
 
-
-
+/*large screens*/
 @media (min-width: 992px) {
-    
-    .outer {
-	/*border: 1px solid black;*/
-	padding: 0px 0px 0px 200px;
-}
-	.first, .second, .third {
-		width: 25%;
-		float: left;
-        margin: 10px
-	}
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-    
-    .outer {
-        padding: 5px;
-        margin: 
-    }
-    
-    .first {
-        width: 47%;
+    .col-lg-3 {
+        width: 33.33%;
         float: left;
-        margin: 10px;
-        
     }
-    
-    .second {
-        width: 48%;
-        margin: 10px;
-        display: inline-block;
+}
+	
+
+/*medium screens*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        width: 50%;
+        float: left;
     }
     
     .third {
-        margin: 10px;
+        clear: both;
+        
     }
+   
 }
 
-@media (max-width: 767px) {
-    .outer {
-        padding: 10px; 
-        margin: 10px
-        
-    }
-    .first, .second, .third {
-        width: 100%;
-        margin: 10px;
-        
-    }
-}
