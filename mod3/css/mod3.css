@@ -25,6 +25,7 @@ header h1 {
 #menu-list {
 	background-color: #736daa;	
 	text-align: center;
+	margin-top:0px;
 }
 
 #menu-list a{
